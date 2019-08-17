@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+ http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+  
+  <bean id="q" class="com.javatpoint.Question">
+<constructor-arg value="444"></constructor-arg>
+<constructor-arg value="how many modules are there in spring"></constructor-arg>
+<constructor-arg>
+
+<set>
+<value>1</value>
+<value>3</value>
+<value>4</value>
+<value>5</value>
+
+</set>
+
+</constructor-arg>
+  
+ </bean>
+  
+  </beans>
